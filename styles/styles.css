@@ -21,14 +21,16 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 
-p {
-    padding: 0;
+main {
+    max-width: 840px;
 }
+
+p { padding: 0;}
 
 aside {
     width: 20rem;
     margin: 1rem;
-    border: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
