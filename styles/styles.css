@@ -31,6 +31,7 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 main {
@@ -42,6 +43,7 @@ p { padding: 0;}
 aside {
     width: 20rem;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -51,8 +53,8 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 680px;
-    left: 110px;
+    top: 20px;
+    left: 100px;
     color: #000;
 }
 
@@ -67,7 +69,11 @@ footer {
 .box {
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0,.1);
     background-color: #eee; 
     color: #333;
+}
+
+.indent {
+    padding-left: 2rem;
 }
