@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/rafting.webp" alt="logo" width="200">
+        <nav class="flex-container">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+
+        <h1>Contact Us</h1>
+        <section>
+            <h2>Company Information</h2>
+            <p>Address: No 7 Samuel Street Farm Road </p>
+            <p>Phone: 0916-013-3967</p>
+            <p>Email: <a href="mailto:soberegoodluck8@gmail.com">soberegoodluck8@gmail.com</a></p>
+        </section>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29165.892671002563!2d7.063465593696543!3d4.820811533418338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1733488119777!5m2!1sen!2sng" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+        </div>
+        <section>
+            <h2>Meet Our Team</h2>
+            <div class="employee-profiles">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Employee 1">
+                    <figcaption>Esther Rivers - Adventure Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Employee 2">
+                    <figcaption>Jack White - Safety Instructor</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.webp" alt="Employee 3">
+                    <figcaption>Victoria Bonnie - Guest Coordinator</figcaption>
+                </figure>
+            </div>
+        </section>
+        <form>
+            <legend>User's Information</legend>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+            <label for="useremail">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email"> 
+            <fieldset>
+                <legend>Purpose of your message</legend>
+                <input type="radio" id="General Inquiry" name="purpose" value="General Inquiry">
+                <label for="General Inquiry">General Inquiry</label><br> 
+                <input type="radio" id="Reservation Question" name="purpose" value="Reservation Question">
+                <label for="Reservation Question">Reservation Question</label><br>
+                <input type="radio" id="Website Suggestion" name="purpose" value="Website Suggestion">
+                <label for="Website Suggestion">Website Suggestion</label><br> 
+            </fieldset>  
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Type your message here"></textarea>
+            <label for="sub">Please subscribe me to the monthly newsletter</label>
+            <input type="checkbox" id="sub" name="sub">
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>© | 2024 | Whitewater Rafting | Goodluck Ogi Sobere-Etete</p>
+        <nav class="sociallinks"> 
+            <a href="https://facebook.com">
+                <img class="social" src="images/facebook.webp" alt="Facebook">
+            </a>
+            <a href="https://x.com">
+                <img class="social" src="images/X.webp" alt="X">
+            </a>
+            <a href="https://instagram.com">
+                <img class="social" src="images/instagram.webp" alt="Instagram">
+            </a>
+            <a href="https://app.moqups.com/V5ivfuxzLhrsAAt1zrrC90dyp4OMOWfQ/edit/page/ad12de680" target="_blank" rel="Wireframe">
+                View the Wireframe
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
