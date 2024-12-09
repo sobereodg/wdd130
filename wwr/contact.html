@@ -49,19 +49,21 @@
             </div>
         </section>
         <form>
-            <legend>User's Information</legend>
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required placeholder="Enter your name">
-            <label for="useremail">Email:</label>
-            <input type="email" id="email" name="email" required placeholder="Enter your email"> 
+            <fieldset>
+                <legend>User's Information</legend>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email"> 
+            </fieldset>
             <fieldset>
                 <legend>Purpose of your message</legend>
-                <input type="radio" id="General Inquiry" name="purpose" value="General Inquiry">
-                <label for="General Inquiry">General Inquiry</label><br> 
-                <input type="radio" id="Reservation Question" name="purpose" value="Reservation Question">
-                <label for="Reservation Question">Reservation Question</label><br>
-                <input type="radio" id="Website Suggestion" name="purpose" value="Website Suggestion">
-                <label for="Website Suggestion">Website Suggestion</label><br> 
+                <input type="radio" id="general-inquiry" name="purpose" value="General Inquiry">
+                <label for="general-inquiry">General Inquiry</label><br> 
+                <input type="radio" id="reservation-question" name="purpose" value="Reservation Question">
+                <label for="reservation-question">Reservation Question</label><br>
+                <input type="radio" id="website-suggestion" name="purpose" value="Website Suggestion">
+                <label for="website-suggestion">Website Suggestion</label><br> 
             </fieldset>  
             <label for="message">Your Message:</label>
             <textarea id="message" name="message" rows="5" required placeholder="Type your message here"></textarea>
